@@ -5,9 +5,9 @@ setInterval(()=> {
         let min = date.getMinutes();
         let sec = date.getSeconds();
         
-        let hRotate = 30*hr + min/2;
-        let mRotate = 6*min;
-        let sRotate = 6*sec;
+        let hRotate = 30 * hr + min / 2;
+        let mRotate = 6 * min;
+        let sRotate = 6 * sec;
 
         let h = document.getElementById("hr");
         h.style.transform = `rotate(${hRotate}deg)`
