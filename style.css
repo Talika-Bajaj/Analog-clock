@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,18 +6,18 @@
     color: white;
 }
 
-/* header container */
+
 header {
     margin: 30px auto;
 }
 
-/* h1 heading */
+
 .heading {
     text-align: center;
     font-size: 50px;
 }
 
-/* clock container */
+
 .clock {
     position: relative;
     margin: auto;
@@ -47,7 +47,6 @@ header {
     width: 1.6%;
     top: 20%;
     left: 49%;
-    /* background-color: brown; */
     opacity: 0.8;
     transform-origin: bottom;
 }
@@ -56,8 +55,52 @@ header {
     height: 36%;
     width: 1%;
     top: 15%;
-    /* background-color: blue; */
     transform-origin: bottom;
     left: 49.4%;
     opacity: 0.8;
+} */
+
+
+#clockContainer {
+	position: relative;
+	margin: auto;
+	height: 40vw;
+	/*to make the height and width responsive*/
+	width: 40vw;
+	background: url(clock.png) no-repeat;
+	/*setting our background image*/
+	background-size: 100%;
+}
+
+#hour,
+#minute,
+#second {
+	position: absolute;
+	background: black;
+	border-radius: 10px;
+	transform-origin: bottom;
+}
+
+#hour {
+	width: 1.8%;
+	height: 25%;
+	top: 25%;
+	left: 48.85%;
+	opacity: 0.8;
+}
+
+#minute {
+	width: 1.6%;
+	height: 30%;
+	top: 19%;
+	left: 48.9%;
+	opacity: 0.8;
+}
+
+#second {
+	width: 1%;
+	height: 40%;
+	top: 9%;
+	left: 49.25%;
+	opacity: 0.8;
 }
