@@ -1,4 +1,4 @@
-
+//setInterval to move clock arms
 setInterval(()=> {
         let date = new Date();
         let hr = date.getHours();

@@ -6,27 +6,23 @@
     color: white;
 }
 
-
-
+/* header container */
 header {
     margin: 30px auto;
 }
 
+/* h1 heading */
 .heading {
     text-align: center;
     font-size: 50px;
 }
 
+/* clock container */
 .clock {
     position: relative;
     margin: auto;
-    /* border: 3px solid blue; */
-    /* height: 40vw;
-    width: 40vw; */
-    height: 440px;
-    width: 440px;
-    background-color: lightcoral;
-    /* border-radius: 50%; */
+    height: 35vw;
+    width: 35vw;
     background: url(clock.png) no-repeat;
     background-size: 100%;
 }
